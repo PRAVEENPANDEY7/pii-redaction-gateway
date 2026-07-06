@@ -1,0 +1,6 @@
+{
+  "name": "PII Redaction & Compliance Gateway",
+  "description": "An interactive, production-grade simulator and documentation portal for deterministic regular expression (regex), context-aware named-entity recognition (NER), and high-compliance prompting pipelines engineered for healthcare and financial workflows.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}
