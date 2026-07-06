@@ -5,7 +5,7 @@ import { createServer as createViteServer } from "vite";
 
 dotenv.config();
 
-const app = express();
+export const app = express();
 const PORT = 3000;
 
 app.use(express.json());
@@ -659,4 +659,6 @@ const setupServer = async () => {
   });
 };
 
-setupServer();
+if (!process.env.VITEST) {
+  setupServer();
+}
